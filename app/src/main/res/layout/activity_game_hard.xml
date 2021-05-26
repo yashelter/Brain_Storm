@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="152dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:onClick="onClickNewGame"
+        android:text="@string/newGame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/easyResult3"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <TextView
+        android:id="@+id/easyResult3"
+        android:layout_width="111dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:text="0"
+        android:textColor="@color/orange"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rounds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hard22"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <TextView
+        android:id="@+id/timer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:text="@string/timeHave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <ImageView
+        android:id="@+id/hard11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hard6"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hard1"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard6"
+        app:layout_constraintTop_toBottomOf="@+id/hard2"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard7"
+        app:layout_constraintTop_toBottomOf="@+id/hard3"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard8"
+        app:layout_constraintTop_toBottomOf="@+id/hard4"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hard9"
+        app:layout_constraintTop_toBottomOf="@+id/hard5"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard11"
+        app:layout_constraintTop_toBottomOf="@+id/hard7"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard13"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard12"
+        app:layout_constraintTop_toBottomOf="@+id/hard8"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard14"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard13"
+        app:layout_constraintTop_toBottomOf="@+id/hard9"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard14"
+        app:layout_constraintTop_toBottomOf="@+id/hard10"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard22"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hard21"
+        app:layout_constraintStart_toEndOf="@+id/hard21"
+        app:layout_constraintTop_toBottomOf="@+id/hard17"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard17"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard16"
+        app:layout_constraintTop_toBottomOf="@+id/hard12"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard18"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard17"
+        app:layout_constraintTop_toBottomOf="@+id/hard13"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard20"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard19"
+        app:layout_constraintTop_toBottomOf="@+id/hard15"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard19"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@+id/hard18"
+        app:layout_constraintTop_toBottomOf="@+id/hard14"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard21"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hard16"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard16"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hard11"
+        app:srcCompat="@drawable/vopros"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/hard23"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hard22"
+        app:layout_constraintStart_toEndOf="@+id/hard22"
+        app:layout_constraintTop_toBottomOf="@+id/hard18"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/hard24"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hard23"
+        app:layout_constraintStart_toEndOf="@+id/hard23"
+        app:layout_constraintTop_toBottomOf="@+id/hard19"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/hard25"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hard24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hard24"
+        app:layout_constraintTop_toBottomOf="@+id/hard20"
+        app:srcCompat="@drawable/vopros" />
+
+    <Button
+        android:id="@+id/backButton3"
+        android:layout_width="130dp"
+        android:layout_height="61dp"
+        android:onClick="goBackBtn"
+        android:text="@string/backBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <ImageView
+        android:id="@+id/hard1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton3"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/hard2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hard1"
+        app:layout_constraintStart_toEndOf="@+id/hard1"
+        app:layout_constraintTop_toTopOf="@+id/hard1"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/hard3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hard2"
+        app:layout_constraintStart_toEndOf="@+id/hard2"
+        app:layout_constraintTop_toTopOf="@+id/hard2"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/hard4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hard3"
+        app:layout_constraintStart_toEndOf="@+id/hard3"
+        app:layout_constraintTop_toTopOf="@+id/hard3"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/hard5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hard4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/hard4"
+        app:layout_constraintTop_toTopOf="@+id/hard4"
+        app:srcCompat="@drawable/vopros" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

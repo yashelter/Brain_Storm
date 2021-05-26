@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">brainStorm</string>
+    <string name="backBtn">Назад</string>
+    <string name="highScore">Моя Статистика</string>
+    <string name="getTokens">Получено токенов: </string>
+    <string name="playBtn">Играть</string>
+    <string name="easyLvl">Простой Уровень</string>
+    <string name="hardLvl">Сложный Уровень</string>
+    <string name="mediumLvl">Средний Уровень</string>
+    <string name="onlineLvl">Кастомизация игры</string>
+    <string name="rules">Правила</string>
+    <string name="question">Сколько было фигур в </string>
+    <string name="question1">ряду</string>
+    <string name="question2">столбце</string>
+    <string name="newGame">Новая игра</string>
+    <string name="timeHave">Осталось на запоминание:</string>
+    <string name="rounds">Количество верных раундов: </string>
+    <string name="correctAnswer">Верный ответ!</string>
+    <string name="uncorrectAnswer">К сожалению, вы ошиблись, тренирутесь больше!</string>
+    <string name="UserImg">Пользовательская картинка</string>
+    <string name="cost">Купить: 100 токенов</string>
+    <string name="cost2">Купить: 150 токенов</string>
+    <string name="allGames">Всего сыграно игр</string>
+    <string name="hardGames">Побед в сложном режиме</string>
+    <string name="mediumGames">Побед в среднем режиме</string>
+    <string name="easyGames">Побед в лёгком режиме</string>
+    <string name="equip">Использовать</string>
+    <string name="buy">Приобрести</string>
+    <string name="pasted">Изображение успешно установлено</string>
+    <string name="notokens">Не достаточно токенов</string>
+    <string name="custom">За 300 токенов, вы можете изменить изображение на своё из галереи</string>
+    <string name="rulesText">После выбора сложности уровня у вас появится поле игры.
+        За отведённое время вам необходимо запомнить расположение фигур, а после ответить на вопрос о количестве фигур в определённом ряду.
+        В случае верного ответа вам будут начисены токены, которые вы сможете потратить.
+        Колличество токенов напрямую зависит от выбранной сложности
+        Также, в разделе "Статистика", в главном меню будет представлена полная статистика о ваших играх и токенах
+        Удачной игры и успехов в развитии памяти!</string>
+
+
+    <string name="cost3">Купить: 200 токенов</string>
+    <string name="bought">Приобретено!</string>
+    <string name="tokens">Ваши токены:</string>
+
+
+</resources>

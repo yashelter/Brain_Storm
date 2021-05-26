@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@android:style/Theme.Black.NoTitleBar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game">
+
+    <ImageView
+        android:id="@+id/easy1"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/easy3"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/easy2"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/easy4"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/easy7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/easy1"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/easy5"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/easy8"
+        app:layout_constraintEnd_toStartOf="@+id/easy6"
+        app:layout_constraintStart_toEndOf="@+id/easy4"
+        app:layout_constraintTop_toBottomOf="@+id/easy2"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/easy6"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/easy9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/easy3"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/easy7"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/easy8"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/easy9"
+        app:layout_constraintStart_toEndOf="@+id/easy7"
+        app:srcCompat="@drawable/vopros" />
+
+    <ImageView
+        android:id="@+id/easy9"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/vopros" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="130dp"
+        android:layout_height="61dp"
+        android:onClick="goBackBtn"
+        android:text="@string/backBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <ImageView
+        android:id="@+id/easy2"
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/easy3"
+        app:layout_constraintStart_toEndOf="@+id/easy1"
+        app:layout_constraintTop_toTopOf="@+id/easy1"
+        app:srcCompat="@drawable/vopros" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timeHave"
+        android:textColor="@android:color/secondary_text_light"
+        app:layout_constraintBottom_toBottomOf="@+id/easytimer"
+        app:layout_constraintEnd_toStartOf="@+id/easytimer"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/easytimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/rounds"
+        android:textColor="@android:color/secondary_text_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/easyResult"
+        android:layout_width="111dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="92dp"
+        android:text="0"
+        android:textColor="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="152dp"
+        android:layout_height="62dp"
+        android:onClick="onClickNewGame"
+        android:text="@string/newGame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
