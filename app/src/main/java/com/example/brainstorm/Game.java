@@ -48,7 +48,6 @@ public class Game extends AppCompatActivity {
         getSupportActionBar().hide();
         String path;
         SharedPreferences mSettings = getSharedPreferences("photo", Context.MODE_PRIVATE);
-        setTokens(500);
         if(mSettings.contains("photo")) {
             path = (mSettings.getString("photo", ""));
         }else{
